@@ -1,0 +1,224 @@
+
+
+/*
+Theme Name: ThemeZone
+Theme URI: abdulhay/journeybyweb.com/ThemeZone/
+Author: Abdul Hay
+Author URI: abdulhay/journeybyweb.com/
+Description: My ThemeZone theme is designed to show off the power of the block editor. It features custom styles for all the default blocks, and is built so that what you see in the editor looks like what you'll see on your website. ThemeZone is designed to be adaptable to a wide range of websites, whether you’re running a photo blog, launching a new business, or supporting a non-profit. Featuring ample whitespace and modern sans-serif headlines paired with classic serif body text, it's built to be beautiful on all screen sizes.
+Requires at least: WordPress 5.2.2
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: ThemeZone
+Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+ThemeZone is based on Underscores https://underscores.me/, (C) 2012-2018 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.angkor_color a {
+	color: #000;
+}
+
+.angkor_color a:hover {
+	text-decoration: none;
+}
+
+/*All_Background*/
+.index_bg {
+	background-color: #5196c1;
+	padding: 15px 0;
+	box-shadow: 3px 3px 5px #58585A; 
+}
+
+.author_bg {
+	background-color: #e5a10d;
+	padding: 15px 0;
+	box-shadow: 3px 3px 5px #58585A;
+}
+
+.logo a img {
+	margin: 20px 0;
+	width: 100%;
+	height: auto;
+}
+
+.logo a img:hover {
+	box-shadow: 2px 3px 4px #58585A;
+}
+.author_name{
+	color: #000;
+}
+
+.title a h1 {
+	text-shadow: 1.5px 2px 2px #58585A;
+	font-size: 40px;
+	color: #A66202;
+	padding: 15px;
+	font-weight: bolder;
+}
+
+.title a:hover {
+	text-decoration: none;
+	color: red;
+}
+
+.thumb_img {
+	width: 100%;
+	height: 100%;
+}
+
+.menu {
+	list-style: none;
+}
+
+.menu li {
+	float: left;
+}
+
+.menu li a {
+	text-shadow: 1.5px 2px 2px #58585A;
+	color: #000;
+	font-size: 25px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.menu li a:hover {
+	box-shadow: 2px 2px 3px #58585A;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.sub-menu {
+	list-style: none;
+}
+
+.category_title {
+	text-align: center;
+	padding: 10px 0;
+	margin: 15px 0;
+	color: #000;
+	text-shadow: 1.5px 2px 2px #58585A;
+}
+
+.category_title a:hover {
+	text-decoration: none;
+	color: #0A1116;
+}
+
+.footer_category {
+	background-color: #270E09;
+	color: transparent;
+	list-style: none;
+}
+
+.categories {
+	height: 55px;
+	margin-bottom: 5vh;
+}
+
+.categories ul {
+	list-style: none;
+	height: 50px;
+	display: inline;
+}
+
+.categories ul li {
+	float: left;
+	padding: 15px;
+}
+
+.categories ul li a {
+	color: #fff;
+}
+
+.categories ul li a:hover {
+	color: #F39300;
+	text-decoration: none;
+}
+
+
+/*author_page*/
+
+.author_name_head {
+	padding: 15px 0;
+	margin-top: 15px;
+	text-align: center;
+	text-shadow: 2px 2px 3px #58585A;
+}
+
+
+.row.author_details {
+	background-color: #698B68;
+	margin-bottom: 15px;
+	box-shadow: 3px 3px 5px #58585A;
+}
+.avatar_img{
+	padding: 15px;
+}
+.avatar_img img{
+	border-radius: 5%;
+}
+
+/*Single_page*/
+.single_thumb_img img{
+	width: 100%;
+}
+
+
+
+/*Comments_Section*/
+.comment_items,
+.children {
+	list-style: none;
+}
+
+.avatar-32 {
+	border-radius: 50px;
+}
+
+.fn,
+.children>.fn {
+	padding: 0 10px;
+	color: #094c2b;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.says {
+	display: none;
+}
+
+.reply {
+	margin-bottom: 15px;
+}
+
+.comment-form-comment label {
+	display: none;
+}
+
+.comment-form-comment textarea {
+	width: 70%;
+	height: 20vh;
+}
+
+
+.qrcode_img{
+	text-align: center;
+}
+}
